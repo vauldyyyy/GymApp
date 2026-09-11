@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.*
+!.env.example
+tmp/
+test-results/
+playwright-report/
+server/data/
+*.log

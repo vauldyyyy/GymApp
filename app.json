@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "FORMA",
+    "slug": "forma-training",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.forma.training"
+    },
+    "android": {
+      "package": "app.forma.training",
+      "adaptiveIcon": {
+        "backgroundColor": "#F6F5F0",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "FORMA — Made for your momentum",
+      "shortName": "FORMA",
+      "backgroundColor": "#F6F5F0",
+      "themeColor": "#EF542E",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": ["expo-font", "expo-secure-store"],
+    "icon": "./assets/icon.png"
+  }
+}
